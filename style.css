@@ -1,6 +1,6 @@
 :root {
             --font-size-base: 32px;
-            --logo-width: 200px;
+            --logo-width: 400px;
             --gold: #d4af37;
         }
 
@@ -64,6 +64,8 @@
             width: var(--logo-width);
             height: auto;
             margin-bottom: 35px;
+            border: #ffffff 5px solid;
+            box-shadow: #616161 0px 0px 15px 5px;
         }
 
         /* Classes de stabilité sauvegardées */
