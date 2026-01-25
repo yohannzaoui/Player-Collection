@@ -4,13 +4,18 @@
             --gold: #d4af37;
         }
 
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Zalando Sans Expanded', sans-serif;
-            overflow: hidden;
-            user-select: none;
-        }
+   body {
+    background-color: #000000;
+    /* On augmente l'opacité à 0.4 et on réduit la diffusion pour plus d'éclat */
+    background-image: radial-gradient(circle at center, rgba(255, 191, 0, 0.3) 0%, rgba(0, 0, 0, 0) 60%);
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Zalando Sans Expanded', sans-serif;
+    overflow: hidden;
+    user-select: none;
+    margin: 0;
+    height: 100vh;
+}
 
         .custom-link {
             color: #ffffff !important;
